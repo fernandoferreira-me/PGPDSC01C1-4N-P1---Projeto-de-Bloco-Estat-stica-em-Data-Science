@@ -1,0 +1,18 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+# PGPDSC01C1-4N-P1 - Projeto de Bloco: Estatística em Data Science
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Esse projeto visa recolher notícias sobre R em sites especializados.
