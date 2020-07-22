@@ -5,8 +5,10 @@ library(tm)
 library(wordcloud)
 
 
+
 root <- "https://www.r-bloggers.com/"
-all_pages <- c(root, paste0(root, "page/", 2:5))
+total_pages <- 50
+all_pages <- c(root, paste0(root, "page/", 2:total_pages))
 
 
 scrape_post_titles <- function(site) {
